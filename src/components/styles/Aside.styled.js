@@ -6,6 +6,7 @@ const AsideStyled = styled.div`
     no-repeat;
   width: 30%;
   height: 100%;
+  color: ${({ theme }) => theme.colors.white};
 `;
 
 export default AsideStyled;

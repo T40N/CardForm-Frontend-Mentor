@@ -1,7 +1,14 @@
-import { AsideStyled } from "./styles";
+import { AsideStyled, CardBackStyled, CardFrontStyled } from "./styles";
 
 const Aside = () => {
-  return <AsideStyled>1</AsideStyled>;
+  return (
+    <AsideStyled>
+      <CardFrontStyled>
+        
+      </CardFrontStyled>
+      <CardBackStyled></CardBackStyled>
+    </AsideStyled>
+  );
 };
 
 export default Aside;

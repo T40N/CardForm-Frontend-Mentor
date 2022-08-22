@@ -13,6 +13,8 @@ const MainStyled = styled.div`
   -webkit-box-shadow: -3px 10px 21px -10px rgba(66, 68, 90, 1);
   -moz-box-shadow: -3px 10px 21px -10px rgba(66, 68, 90, 1);
   box-shadow: -3px 10px 21px -10px rgba(66, 68, 90, 1);
+  border-radius: 0.8rem;
+  overflow: hidden;
 `;
 
 export default MainStyled;
